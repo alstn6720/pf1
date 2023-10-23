@@ -1,0 +1,185 @@
+div#title {
+  
+  position: relative;
+}
+div#title div.wrap {
+  
+  width: 100%;
+  height: 800px;
+}
+div#title div.wrap {
+  
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+div#title div.wrap article {
+  
+  width: 100%;
+  height: 800px;
+}
+div#title div.wrap article:nth-child(1) {
+
+  background-image: url(../img/back1.png);
+}
+div#title div.wrap article:nth-child(2) {
+
+  background-image: url(../img/back2.png);
+}
+div#title div.wrap article:nth-child(3) {
+
+  background-image: url(../img/back3.jpg);
+}
+div#title div.wrap article:nth-child(4) {
+
+  background-image: url(../img/back4.jpg);
+}
+div#title div.wrap article:nth-child(5) {
+
+  background-image: url(../img/back5.jpg);
+}
+div#title div.wrap article:nth-child(6) {
+
+  background-image: url(../img/back6.jpg);
+}
+div#title div.wrap article div.text {
+  
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+div#title div.wrap article div.text ul.hash {
+  
+  display: flex;
+  margin-bottom: 60px;
+}
+div#title div.wrap article div.text ul.hash li {
+  
+}
+div#title div.wrap article div.text h2 {
+  
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+div#title div.wrap article:nth-child(5) div.text h2 {
+  
+  font-size: 50px;
+  margin-bottom: 25px;
+  color: white
+}
+div#title div.wrap article:nth-child(6) div.text h2 {
+  
+  font-size: 50px;
+  margin-bottom: 25px;
+  color: white
+}
+div#title div.wrap article div.text p {
+  
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+div#title div.wrap article:nth-child(5) div.text p {
+  
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: white;
+}
+div#title div.wrap article:nth-child(6) div.text p {
+  
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: white;
+}
+div#title div.wrap article div.text ul p {
+  
+  margin-bottom: 19px;
+  font-size: 25px;
+}
+div#title div.wrap article div.text a{
+  
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 23px;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+div#title div.wrap div.subtit {
+  
+  width: 100%;
+}
+div#title div.wrap ul.titlist div.subtit ul.titnav {
+  
+  display: flex;
+  /*! gap: 25px; */
+  justify-content: center;
+  bottom: 25px;
+  font-family: 'KIMM_Bold';
+  font-size: 14px;
+  width: 100%;
+}
+div#title div.subtit{
+  
+  width: 100%;
+  height: 50px;
+  bottom: 30px;
+  position: absolute;
+}
+div#title div.subtit ul.titnav{
+
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  gap: 10px;
+}
+div#title div.subtit ul.titnav li {
+  
+  width: 151px;
+  text-align: center;
+  background: none;
+  display: block;
+}
+div#title div.subtit ul.titnav li a:hover{
+    border-bottom: 2px solid rgba(0,0,0,.5);
+}
+div#title div.subtit ul.titnav li a {
+  display: block;
+  color: black;
+  line-height: 3;
+  border-bottom: 2px solid rgba(0,0,0,.3);
+
+  font-size: 15px;
+}
+.prev{
+  position: absolute;
+  left: 150px;
+  
+  top: 400px;
+  background: url(../img/next.png);
+  width: 28px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0;
+  border: none;
+  transform: rotate(180deg);
+}
+.next{
+  position: absolute;
+  left: 1800px;
+  top: 400px;
+  background: url(../img/next.png);
+    background-repeat: repeat;
+    background-size: auto;
+  width: 28px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0;
+  border: none;
+}

@@ -1,0 +1,74 @@
+/* 공통스타일 class */
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+  /*! background-image: url(../img/body.jpg); */
+  background-size: contain;
+}
+.full{
+  width: auto;
+}
+.wrap{
+  width: 1440px;
+  margin: 0 auto;
+  display: block;
+}
+.hide{
+  display: none; /* 안보이게 */
+}
+.rbox{
+    width: 300px;
+  height: 300px;
+  background-color: #eee;
+  border-radius: 20px;
+  text-align: center;
+
+}
+.bgimg{
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.padding50{
+  padding-top: 60px;
+  /*! padding-bottom: 60px; */
+}
+.flex{
+  display: flex;
+  justify-content: center;
+}
+.text-center{
+  text-align: center;
+}
+.h1{
+  font-size: 55px;
+}
+.h2{
+  font-size: 45px;
+}
+.h3{
+  font-size: 32px;
+}
+.h4{
+  font-size: 25px;
+}
+.h5{
+  font-size: 20px;
+  font-family: 'KIMM_Bold';
+}
+.p{
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+.block{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+

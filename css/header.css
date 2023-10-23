@@ -1,0 +1,308 @@
+header {
+  
+}
+header div.wrap {
+  
+  width: 1440px;
+  position: relative;
+}
+header div.wrap h1 {
+  
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 0px;
+  font-weight: bold;
+  display: inline-block;
+  font-family: 'SBAggroB';
+  margin-left: 20px;
+}
+header div.wrap h1 a {
+  
+  width: 145px;
+  height: 30px;
+  display: inline-block;
+  background-image: url(../img/samsung.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: -11px;
+}
+header div.wrap div.textbox {
+  
+  width: 100%;
+  position: relative;
+  height: 50px;
+}
+header div.wrap div ul.text {
+  
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+header div.wrap div ul.text li {
+  
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 2px;
+  font-size: 14px;
+  line-height: 30px;
+}
+header div.wrap div ul.text li:nth-last-of-type(3){
+  
+  margin-left: 160px;
+}
+header div.wrap div ul.text li:nth-last-of-type(4){
+  
+  margin-left: 14px;
+}
+header div.wrap div ul.text li:nth-last-of-type(4) a:before{
+  content: "";
+  display: inline-block;
+  content: "";
+  width: 1px;
+  height: 18px;
+  background: #707070;
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  transform: translateY(-50%);
+}
+header div.wrap div ul.text li a {
+  
+  border-radius: 32px;
+  padding: 0 9px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  cursor: pointer;
+  color: inherit;
+  height: 30px;
+}
+header div.wrap div ul.text li a:hover{
+  
+  background-color: black;
+  color: white;
+}
+header div.wrap div ul.icon {
+  
+  position: absolute;
+  right: 40px;
+  top: -58px;
+  display: flex;
+}
+header div.wrap div ul.icon li {
+  
+  margin-left: 13px;
+  align-items: center;
+  display: flex;
+}
+header div.wrap div ul.icon li a {
+  
+  width: 25px;
+  height: 25px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 0;
+}
+header div.wrap div ul.icon li a.cart {
+  
+  background-image: url(../img/basket3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 0;
+}
+header div.wrap div ul.icon li a.user {
+    background-image: url(../img/user2.svg);
+}
+header div.wrap div ul.icon form {
+  
+  background-color: #eee;
+  width: 330px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 27px;
+}
+header div.wrap div ul.icon form input{
+  background-color: transparent;
+  padding: 5px;
+  border: none;
+}
+header div.wrap div ul.icon form button {
+  border: none;
+  font-size: 0;
+  width: 41px;
+  height: 30px;
+  vertical-align: 5px;
+  background: transparent url('../img/search2.png') center center/26px scroll no-repeat;
+}
+header div.wrap div.rb{
+  left: 305px;
+}
+header div.wrap div.pc{
+
+  left: 303px;
+}
+header div.wrap div.tv{
+  left: 60px;
+}
+header div.wrap div.kc{
+  left: 150px;
+}
+header div.wrap div.rb{
+  left: 225px;
+}
+.navdiv{
+
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+  width: 650px;
+  height: 480px;
+  display: flex;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  border-top: 1px solid;
+}
+.navtext{
+    
+  width: 30%;
+  height: 100%;
+}
+.navicon{
+    
+  width: 70%;
+  height: 100%;
+}
+.navtextul{
+  padding: 20px;
+height: calc(100% - 40px);
+border-right: 1px solid;
+}
+.naviconul{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 30px;
+width: calc(100% - 60px);
+height: calc(100% - 60px);
+gap: 20px;
+}
+.navtextulli{
+  margin-bottom: 18px;
+font-size: 13px;
+transition: all 1s;
+}
+.naviconulli{
+width: 118px;
+height: 120px;
+border-radius: 45px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+.naviconulli img{
+  box-sizing: border-box;
+  max-width: 100%;
+  border-radius: 16px;
+}
+.naviconullip{
+  font-size: 11px;
+  position: absolute;
+  bottom: 2px;
+  left: 8px;
+  text-align: center;
+  width: 85%;
+  font-weight: 500;
+}
+.naviconullipimg{
+    
+  box-sizing: border-box;
+  max-width: 100%;
+  border-radius: 16px;
+}
+/* header div.wrap div.mob div.text,header div.wrap div.tv div.text,header div.wrap div.kc div.text{
+  
+  width: 30%;
+  height: 100%;
+}
+header div.wrap div.mob div.icon,header div.wrap div.tv div.icon,header div.wrap div.kc div.icon{
+  
+  width: 70%;
+  height: 100%;
+} */
+
+/* header div.wrap div.mob div.text ul,header div.wrap div.tv div.text ul,header div.wrap div.kc div.text ul{
+  
+  padding: 20px;
+  height: calc(100% - 40px);
+  border-right: 1px solid;
+}
+header div.wrap div.mob div.icon ul,header div.wrap div.tv div.icon ul,header div.wrap div.kc div.icon ul{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  gap: 20px;
+} */
+
+/* header div.wrap div.mob div.text ul li,header div.wrap div.tv div.text ul li,header div.wrap div.kc div.text ul li{
+  
+  margin-bottom: 18px;
+  font-size: 13px;
+  transition: all 1s;
+}
+
+header div.wrap div.mob div.icon ul li,header div.wrap div.tv div.icon ul li,header div.wrap div.kc div.icon ul li{
+  
+  width: 118px;
+  height: 120px;
+  border-radius: 45px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+} */
+
+/* header div.wrap div.mob div.icon ul li p,header div.wrap div.tv div.icon ul li p,header div.wrap div.kc div.icon ul li p{
+  
+  font-size: 11px;
+  position: absolute;
+  bottom: 11px;
+  left: 8px;
+  text-align: center;
+  width: 85%;
+} */
+
+header div.wrap div.mob div.icon ul li img,header div.wrap div.tv div.icon ul li img,header div.wrap div.kc div.icon ul li img{
+  
+  box-sizing: border-box;
+  max-width: 100%;
+  border-radius: 16px;
+}
+.sskp{
+  
+  width: 250px;
+  height: 100px;
+  left: 466px;
+}
+.sskp div{
+  
+  width: 100%;
+}
+.ssdc{
+    left: 666px;
+}
+.samsungExperience{
+      left: 847px;
+}
