@@ -573,3 +573,26 @@ footer .wrap2 ul.icon li:nth-of-type(5){
 footer .wrap2 ul.icon li:nth-of-type(6){
   background-image: url(../img/share.svg)
 }
+div#title .slick-prev{
+  left: 150px;
+  width: 50px;
+  height: 50px;
+  background-image: url(../img/prev.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border-radius: 50%;
+  opacity: 0.6;
+  z-index: 1;
+}
+div#title .slick-next{
+  right: 150px;
+  width: 55px;
+  height: 55px;
+  background-image: url(../img/next.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border-radius: 50%;
+  opacity: 0.6;
+}
