@@ -121,6 +121,28 @@ main #product .wrap ul {
   width: 1380px;
   column-gap: 40px;
   justify-content: center;
+  position: relative;
+}
+main #product .wrap ul.escontents{
+  
+}
+main #product .wrap ul.escontents div.sbox{
+  
+}
+main #product .wrap ul.escontents div.sbox li{
+  
+}
+main #product .wrap ul.escontents div.list{
+  
+}
+main #product .wrap ul.escontents div.sbox li.bgimg{
+  
+}
+main #product .wrap ul.escontents div.list li.bgimg{
+  
+}
+main #product .wrap ul.escontents div li.bgimg a{
+  
 }
 main #product .wrap ul.contents li { 
 
@@ -210,6 +232,8 @@ main #product .wrap ul.skcontents li:nth-child(8){
 }
 main #product .wrap ul.escontents li:nth-child(1){
   background-image: url(../img/es1.png);
+  width: 640px;
+  height: 640px;
 }
 main #product .wrap ul.escontents li:nth-child(2){
   background-image: url(../img/es2.png);
@@ -219,9 +243,15 @@ main #product .wrap ul.escontents li:nth-child(3){
 }
 main #product .wrap ul.escontents li:nth-child(4){
   background-image: url(../img/es4.png);
+  position: absolute;
+  right: 370px;
+  top: 340px;
 }
 main #product .wrap ul.escontents li:nth-child(5){
   background-image: url(../img/es5.png);
+  position: absolute;
+  right: 28px;
+  top: 340px;
 }
 main #product .wrap ul.secontents li:nth-child(1){
   background-image: url(../img/se1.png);
@@ -321,6 +351,14 @@ main #product .wrap ul.contents li p {
   /*! line-height: 2; */
 }
 main #product .wrap ul.tencontents li{
+  width: 430px;
+  height: 640px;
+  background-color: #eee;
+  border-radius: 20px;
+  text-align: center;
+  background-size: auto;
+}
+main #product .wrap ul.secontents li{
   width: 430px;
   height: 640px;
   background-color: #eee;
