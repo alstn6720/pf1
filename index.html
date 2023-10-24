@@ -23,179 +23,73 @@
     <script>
         $(document).ready(function(){
              $('.single-item').slick({
-             });
+             });  
         });
     </script>
     <script>
-        // 모바일
         $(document).ready(function(){
-            $('#mobile div.contents article:nth-of-type(1)').siblings().hide();
-            $('#mobile ul.list li:nth-of-type(1)').click(function(){
-                $("#mobile div.contents article:nth-of-type(1)").siblings().hide();
-                $("#mobile div.contents article:nth-of-type(1)").show();
-                $(this).css("border-bottom","2px solid #444");
-                $(this).siblings().css("border-bottom","2px solid #f3f3f3");
-                return false;
-            });
-            $('#mobile ul.list li:nth-of-type(2)').click(function(){
-                $("#mobile div.contents article:nth-of-type(2)").siblings().hide();
-                $("#mobile div.contents article:nth-of-type(2)").show();
-                $(this).css("border-bottom","2px solid #444");
-                $(this).siblings().css("border-bottom","2px solid #f3f3f3");
-                return false;
-            });
-            $('#mobile ul.list li:nth-of-type(3)').click(function(){
-                $("#mobile div.contents article:nth-of-type(3)").siblings().hide();
-                $("#mobile div.contents article:nth-of-type(3)").show();
-                $(this).css("border-bottom","2px solid #444");
-                $(this).siblings().css("border-bottom","2px solid #f3f3f3");
-                return false;
-            });
-            $('#mobile ul.list li:nth-of-type(4)').click(function(){
-                $("#mobile div.contents article:nth-of-type(4)").siblings().hide();
-                $("#mobile div.contents article:nth-of-type(4)").show();
-                $(this).css("border-bottom","2px solid #444");
-                $(this).siblings().css("border-bottom","2px solid #f3f3f3");
-                return false;
-            });
+        $('#mobile div.contents article:nth-of-type(1)').siblings().hide();
+        $('#mobile ul.list li').click(function(){
+            var index = $(this).index();
+            $('#mobile div.contents article').hide().eq(index).show();
+            $('#mobile ul.list li').css("border-bottom", "2px solid #f3f3f3");
+            $(this).css("border-bottom", "2px solid #444");
+            return false;
+        });
         });
         // header
         $(document).ready(function(){
-            $('header div.wrap div.mob').hide();
-            $('header div.wrap div ul.text li:nth-of-type(1),header div.wrap div.mob').mouseover(function(){
-                $('header div.wrap div.mob').show();
-            });
-            $('header div.wrap div ul.text li:nth-of-type(1),header div.wrap div.mob').mouseout(function(){
-                $('header div.wrap div.mob').hide();
-            });
-            $('header div.wrap div.tv').hide();
-            $('header div.wrap div ul.text li:nth-of-type(2),header div.wrap div.tv').mouseover(function(){
-                $('header div.wrap div.tv').show();
-            });
-            $('header div.wrap div ul.text li:nth-of-type(2),header div.wrap div.tv').mouseout(function(){
-                $('header div.wrap div.tv').hide();
-            });
-            $('header div.wrap div.kc').hide();
-            $('header div.wrap div ul.text li:nth-of-type(3),header div.wrap div.kc').mouseover(function(){
-                $('header div.wrap div.kc').show();
-            });
-            $('header div.wrap div ul.text li:nth-of-type(3),header div.wrap div.kc').mouseout(function(){
-                $('header div.wrap div.kc').hide();
-            });
-            $('header div.wrap div.rb').hide();
-            $('header div.wrap div ul.text li:nth-of-type(4),header div.wrap div.rb').mouseover(function(){
-                $('header div.wrap div.rb').show();
-            });
-            $('header div.wrap div ul.text li:nth-of-type(4),header div.wrap div.rb').mouseout(function(){
-                $('header div.wrap div.rb').hide();
-            });
-            $('header div.wrap div.pc').hide();
-            $('header div.wrap div ul.text li:nth-of-type(5),header div.wrap div.pc').mouseover(function(){
-                $('header div.wrap div.pc').show();
-            });
-            $('header div.wrap div ul.text li:nth-of-type(5),header div.wrap div.pc').mouseout(function(){
-                $('header div.wrap div.pc').hide();
-            });
-            $('header div.wrap div.sskp').hide();
-            $('header div.wrap div ul.text li:nth-of-type(7),header div.wrap div.sskp').mouseover(function(){
-                $('header div.wrap div.sskp').show();
-            });
-            $('header div.wrap div ul.text li:nth-of-type(7),header div.wrap div.sskp').mouseout(function(){
-                $('header div.wrap div.sskp').hide();
-            });
-            $('header div.wrap div.ssdc').hide();
-            $('header div.wrap div ul.text li:nth-of-type(9),header div.wrap div.ssdc').mouseover(function(){
-                $('header div.wrap div.ssdc').show();
-            });
-            $('header div.wrap div ul.text li:nth-of-type(9),header div.wrap div.ssdc').mouseout(function(){
-                $('header div.wrap div.ssdc').hide();
-            });
-            $('header div.wrap div.samsungExperience').hide();
-            $('header div.wrap div ul.text li:nth-of-type(11),header div.wrap div.samsungExperience').mouseover(function(){
-                $('header div.wrap div.samsungExperience').show();
-            });
-            $('header div.wrap div ul.text li:nth-of-type(11),header div.wrap div.samsungExperience').mouseout(function(){
-                $('header div.wrap div.samsungExperience').hide();
-            });
-        });
-        // tv audio
-        $(document).ready(function(){
-            $('#tv div.contents article:nth-child(1)').siblings().hide();
-            $('#tv ul.list li:nth-child(1)').click(function(){
-                $("#tv div.contents article:nth-child(1)").siblings().hide();
-                $("#tv div.contents article:nth-child(1)").show();
-                $(this).css("border-bottom","2px solid #444");
-                $(this).siblings().css("border-bottom","2px solid #f3f3f3");
-                return false;
-            });
-            $('#tv ul.list li:nth-child(2)').click(function(){
-                $("#tv div.contents article:nth-child(2)").siblings().hide();
-                $("#tv div.contents article:nth-child(2)").show();
-                $(this).css("border-bottom","2px solid #444");
-                $(this).siblings().css("border-bottom","2px solid #f3f3f3");
-                return false;
-            });            
-            $('#tv ul.list li:nth-child(3)').click(function(){
-                $("#tv div.contents article:nth-child(3)").siblings().hide();
-                $("#tv div.contents article:nth-child(3)").show();
-                $(this).css("border-bottom","2px solid #444");
-                $(this).siblings().css("border-bottom","2px solid #f3f3f3");
-                return false;
-            });            
-            $('#tv ul.list li:nth-child(4)').click(function(){
-                $("#tv div.contents article:nth-child(4)").siblings().hide();
-                $("#tv div.contents article:nth-child(4)").show();
-                $(this).css("border-bottom","2px solid #444");
-                $(this).siblings().css("border-bottom","2px solid #f3f3f3");
-                return false;
-            });
-            $('#tv ul.list li:nth-child(5)').click(function(){
-                $("#tv div.contents article:nth-child(5)").siblings().hide();
-                $("#tv div.contents article:nth-child(5)").show();
-                $(this).css("border-bottom","2px solid #444");
-                $(this).siblings().css("border-bottom","2px solid #f3f3f3");
-                return false;
-            });
-            $('#tv ul.list li:nth-child(6)').click(function(){
-                $("#tv div.contents article:nth-child(6)").siblings().hide();
-                $("#tv div.contents article:nth-child(6)").show();
-                $(this).css("border-bottom","2px solid #444");
-                $(this).siblings().css("border-bottom","2px solid #f3f3f3");
-                return false;
-            });
+            $(document).ready(function(){
+            var elements = [
+                'mob',
+                'tv',
+                'kc',
+                'rb',
+                'pc',
+                'sskp',
+                'ssdc',
+                'samsungExperience'
+            ];
 
+            elements.forEach(function(element) {
+                var $element = $('header div.wrap div.' + element);
+                $element.hide();
+                
+                $('header div.wrap div ul.text li:nth-of-type(' + (elements.indexOf(element) + 1) + '),header div.wrap div.' + element).mouseover(function(){
+                    $element.show();
+                });
+
+                $('header div.wrap div ul.text li:nth-of-type(' + (elements.indexOf(element) + 1) + '),header div.wrap div.' + element).mouseout(function(){
+                    $element.hide();
+                });
+                });
+            });
         });
-        // main product 
+        $(document).ready(function () {
+            var $articles = $('#tv div.contents article');
+            var $listItems = $('#tv ul.list li');
+
+            $articles.siblings().hide();
+
+            $listItems.click(function () {
+                var index = $listItems.index(this);
+                $articles.hide().eq(index).show();
+                $listItems.css("border-bottom", "2px solid #f3f3f3");
+                $(this).css("border-bottom", "2px solid #444");
+                return false;
+            });
+        });
         $(document).ready(function(){
-            $('main #product .wrap ul.contents').siblings().hide();
-            $('main #product .wrap ul.list li:nth-child(1)').click(function(){
-                $("main #product .wrap ul.contents").siblings().hide();
-                $("main #product .wrap ul.contents").show();
-                return false;
-            });
-            $('main #product .wrap ul.list li:nth-child(2)').click(function(){
-                $("main #product .wrap ul.newcontents").siblings().hide();
-                $("main #product .wrap ul.newcontents").show();
-                return false;
-            });
-            $('main #product .wrap ul.list li:nth-child(3)').click(function(){
-                $("main #product .wrap ul.tencontents").siblings().hide();
-                $("main #product .wrap ul.tencontents").show();
-                return false;
-            });
-            $('main #product .wrap ul.list li:nth-child(4)').click(function(){
-                $("main #product .wrap ul.skcontents").siblings().hide();
-                $("main #product .wrap ul.skcontents").show();
-                return false;
-            });
-            $('main #product .wrap ul.list li:nth-child(5)').click(function(){
-                $("main #product .wrap ul.escontents").siblings().hide();
-                $("main #product .wrap ul.escontents").show();
-                return false;
-            });
-            $('main #product .wrap ul.list li:nth-child(6)').click(function(){
-                $("main #product .wrap ul.secontents").siblings().hide();
-                $("main #product .wrap ul.secontents").show();
+            var $contents = $('main #product .wrap ul.contents');
+            var $listItems = $('main #product .wrap ul.list li');
+
+            $listItems.click(function(){
+                var contentClass = $(this).data('content-class');
+                var $targetContent = $contents.filter('.' + contentClass);
+
+                $contents.siblings().hide();
+                $targetContent.show();
+                
                 return false;
             });
         });
