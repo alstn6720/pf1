@@ -80,19 +80,39 @@
             });
         });
         $(document).ready(function(){
-            var $contents = $('main #product .wrap ul.contents');
-            var $listItems = $('main #product .wrap ul.list li');
-
-            $listItems.click(function(){
-                var contentClass = $(this).data('content-class');
-                var $targetContent = $contents.filter('.' + contentClass);
-
-                $contents.siblings().hide();
-                $targetContent.show();
-                
+            $('main #product .wrap ul.contents').siblings().hide();
+            $('main #product .wrap ul.list li:nth-child(1)').click(function(){
+                $("main #product .wrap ul.contents").siblings().hide();
+                $("main #product .wrap ul.contents").show();
                 return false;
             });
-        });
+            $('main #product .wrap ul.list li:nth-child(2)').click(function(){
+                $("main #product .wrap ul.newcontents").siblings().hide();
+                $("main #product .wrap ul.newcontents").show();
+                return false;
+            });
+            $('main #product .wrap ul.list li:nth-child(3)').click(function(){
+                $("main #product .wrap ul.tencontents").siblings().hide();
+                $("main #product .wrap ul.tencontents").show();
+                return false;
+            });
+            $('main #product .wrap ul.list li:nth-child(4)').click(function(){
+                $("main #product .wrap ul.skcontents").siblings().hide();
+                $("main #product .wrap ul.skcontents").show();
+                return false;
+            });
+            $('main #product .wrap ul.list li:nth-child(5)').click(function(){
+                $("main #product .wrap ul.escontents").siblings().hide();
+                $("main #product .wrap ul.escontents").show();
+                return false;
+            });
+            $('main #product .wrap ul.list li:nth-child(6)').click(function(){
+                $("main #product .wrap ul.secontents").siblings().hide();
+                $("main #product .wrap ul.secontents").show();
+                return false;
+            });
+        }); 
+
     </script>
 </head>
 <body>
