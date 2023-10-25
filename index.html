@@ -69,7 +69,7 @@
             var $articles = $('#tv div.contents article');
             var $listItems = $('#tv ul.list li');
 
-            $articles.siblings().hide();
+            $articles:nth-child(1).siblings().hide();
 
             $listItems.click(function () {
                 var index = $listItems.index(this);
